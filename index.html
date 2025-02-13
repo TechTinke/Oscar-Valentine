@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar's Valentine Invitation</title>
+    <link rel="stylesheet" href="oscar.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart-box">
+            <svg width="100%" height="100%" viewBox="0 0 100 100" class="heart-svg">
+                <path fill="none" stroke="#FF6D6D" stroke-width="5" stroke-dasharray="8" d="M25,30 Q50,5 75,30 Q50,80 25,30 Z"/>
+            </svg>
+            <div class="valentine-text">Bianca,<br>will you be my valentine?</div>
+            <div class="kiss-emojis">
+                <span class="emoji" style="--delay:0s">＇ lips＇＇＇</span>
+                <span class="emoji" style="--delay:0.5s">＇＇＇＇＇kisses＇＇＇＇＇＇＇＇＇</span>
+                <span class="emoji" style="--delay:1s">＇＇＇＇＇＇＇＇＇hugs＇＇＇＇＇＇＇＇＇＇＇＇︎  ️</span>
+            </div>
+        </div>
+        <div class="button-row">
+            <button class="cta no-btn">No</button>
+            <button class="cta yes-btn">Yes</button>
+            <button class="cta music-btn">Play Music</button>
+        </div>
+        <div class="confetti"></div>
+        <audio id="music">
+            <source src="venus.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="oscar.js"></script>
+</body>
+</html>
